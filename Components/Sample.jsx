@@ -71,6 +71,7 @@ const clear=()=>{
   setAmount('')
   setRate('')
   setYear('')
+  setInterest(0)
   isinavalidprinciple('false')
   isinavalidprincipleRate('false')
   isinavalidprincipleYear('false')
@@ -86,7 +87,7 @@ const clear=()=>{
         <h1>Simple Interest Calculator</h1>
         <p>Calculate your simple interest easily</p>
         <div className='text-light bg-dark rounded d-flex justify-content-center flex-column align-items-center' style={{height:'150px'}}>
-            <h1 style={{fontSize:'40px'}}>₹{interest}</h1>
+            <h1   style={{fontSize:'40px'}}>₹{interest}  </h1>
             <h1 style={{fontSize:'30px'}}>Total simple interest</h1>
 
 
